@@ -40,7 +40,7 @@ return require('packer').startup(function(use)
 }
 
     use { 'catppuccin/nvim', as = "catppuccin" }
-	vim.cmd("colorscheme kanagawa-dragon")
+	vim.cmd("colorscheme gruvbox")
     use {'ThePrimeagen/vim-be-good'}
 
 end)
